@@ -1,7 +1,7 @@
-from flask import Flask
+from app import app
+from flask import render_template
 
 #instance of the Flask class assigned to variable 'app'
-app = Flask(__name__)
 
 
 @app.route('/') #get request '/' it will return statement thats within that function.
